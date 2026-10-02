@@ -1,12 +1,22 @@
 # nothing-dialer
 A native Android dialer app inspired by Nothing Phone design, built to replace the stock Google Dialer experience.
 
-This repository starts with a minimal Android project scaffold for a custom dialer UI using Jetpack Compose and a Nothing-inspired dark theme.
+This project now includes a custom Compose-based dialer UI with:
+- keypad input and number entry
+- recent call list
+- favorite contacts panel
+- Nothing-inspired dark aesthetic
+- dial action that opens the system dialer with the selected number
 
-Next milestones:
-- Add contact lookup and permissions flow
-- Add actual dial behavior and call log integration
-- Add call screen and favorites UI
-- Prepare app icon and branding polish
+Project structure:
+- `app/src/main/java/com/bozinsky/nothingdialer/MainActivity.kt` — main dialer screen and behavior
+- `app/src/main/java/com/bozinsky/nothingdialer/ui/theme/*` — theme and colors
+- `app/src/main/AndroidManifest.xml` — app metadata and permissions
 
-Open the project in Android Studio and sync Gradle to start editing the UI.
+Next planned enhancements:
+- Contact permission and actual contact lookup
+- Real call log integration
+- Call screen for active incoming/outgoing calls
+- Better Nothing Phone-specific iconography and animations
+
+Open the project in Android Studio and sync Gradle to run the app.
